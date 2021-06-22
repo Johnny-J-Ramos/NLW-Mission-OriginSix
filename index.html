@@ -1,40 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Espaço Mulher</title>
-</head>
+    <title>OriginSix</title>
 
-<body>
-    
-    <header>
-        <h1>Espaço Mulher</h1>
-        <div class="menu">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">beauty<span>salon</span>.</a>
+        <div class="manu">
+          <ul>
             <li><a href="#home">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#Services">Serviços</a></li>
-            <li><a href="#testimoials">Depoimentos</a></li>
-            <li><a href="#contact">Contato</a></li>
-            </ul>
+            <li><a href="#about"></a>Sobre</li>
+            <li><a href="#services"></a>Serviços</li>
+            <li><a href="#testimonials"></a>Depoimentos</li>
+            <li><a href="#contact"></a>Contato</li>
+          </ul>
         </div>
-        
+        <div class="open">...</div>
+        <div class="close">X</div>
+      </nav>
     </header>
 
     <main>
-        <section>
-            <img src="./img/imgPrincipal.jpeg" alt="Mulher com o secador na mão" />
-            <h2>Saúde natural para os seus cabelos</h2>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Mulher sorrindo penteando outra mulher"
+            />
+          </div>
+          <div class="text">
+            <h1>Saúde natural para os seus cabelos</h1>
             <p>
-                Um salão exclusivo em Resende, especializado em tratamento naturais.
+              Um salão exclusivo em São Paulo, especializado em tratamentos
+              naturais.
             </p>
-            <button><a href="#"></a>Agendar um horário</button>
-        </section>
+            <a class="button" href="#">Agendar um horário</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section">
+        <div class="container">outra section</div>
+      </section>
     </main>
-
-    <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
