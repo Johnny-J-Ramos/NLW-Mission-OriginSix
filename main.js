@@ -13,5 +13,5 @@ const links = document.querySelectorAll('nav ul li a')
 for (const link of links) {
    link.addEventListener('click', function() {
       nav.classList.remove('show')
-   } )
+   })
 }
